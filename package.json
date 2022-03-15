@@ -13,7 +13,11 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
+<<<<<<< HEAD
     "vuejs-toggle-switch": "^1.3.3"
+=======
+    "vuelidate": "^0.7.7"
+>>>>>>> a6508f00f7e842ba703278334ad2e4fb3d70ffbf
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.3",
