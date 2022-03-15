@@ -5,8 +5,31 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
+    <div :class="{'active': toggleActive}" class="toggle_container">
+      
+    </div>
   </div>
 </template>
+<script>
+
+
+export default {
+    name: 'App',
+
+    components: {
+        
+    },
+    data() {
+        return {
+            
+        }
+    },
+
+    methods: {
+       
+    }
+}
+</script>
 
 <style lang="scss">
 #app {
@@ -29,4 +52,5 @@
     }
   }
 }
+
 </style>
